@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from colorlib.com/etc/regform/colorlib-regform-4/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Dec 2021 23:19:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="Colorlib Templates">
+<meta name="author" content="Colorlib">
+<meta name="keywords" content="Colorlib Templates">
+
+<title>Credit Card Defaulter Prediction</title>
+
+<link href="{{ url_for('static', filename='vendor/mdi-font/css/material-design-iconic-font.min.css') }}" rel="stylesheet" media="all">
+<link href="{{ url_for('static', filename='vendor/font-awesome-4.7/css/font-awesome.min.css') }}" rel="stylesheet" media="all">
+
+<style id="" media="all">@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiAyp8kv8JHgFVrJJLmE0tCMPc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLmv1pVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 300;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLm21lVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 400;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrJJLucHtF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 500;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLmg1hVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 600;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLmr19VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 700;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLmy15VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 800;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLm111VF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 900;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiDyp8kv8JHgFVrJJLm81xVF9eL.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 100;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiGyp8kv8JHgFVrLPTucHtF.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 900;
+  src: url(https://colorlib.com/fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format('truetype');
+}
+</style>
+
+<link href="{{ url_for('static', filename='vendor/select2/select2.min.css') }}" rel="stylesheet" media="all">
+<link href="{{ url_for('static', filename='vendor/datepicker/daterangepicker.css') }}" rel="stylesheet" media="all">
+
+<link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet" media="all">
+<meta name="robots" content="noindex, follow">
+<script>(function(w,d){!function(e,t,r,a,s){e[r]=e[r]||{},e[r].executed=[],e.zaraz={deferred:[]};var n=t.getElementsByTagName("title")[0];e[r].c=t.cookie,n&&(e[r].t=t.getElementsByTagName("title")[0].text),e[r].w=e.screen.width,e[r].h=e.screen.height,e[r].j=e.innerHeight,e[r].e=e.innerWidth,e[r].l=e.location.href,e[r].r=t.referrer,e[r].k=e.screen.colorDepth,e[r].n=t.characterSet,e[r].o=(new Date).getTimezoneOffset(),//
+e[s]=e[s]||[],e.zaraz._preTrack=[],e.zaraz.track=(t,r)=>e.zaraz._preTrack.push([t,r]),e[s].push({"zaraz.start":(new Date).getTime()});var i=t.getElementsByTagName(a)[0],o=t.createElement(a);o.defer=!0,o.src="../../../cdn-cgi/zaraz/sd41d.js?"+new URLSearchParams(e[r]).toString(),i.parentNode.insertBefore(o,i)}(w,d,"zarazData","script","dataLayer");})(window,document);</script></head>
+<body>
+<div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+<div class="wrapper wrapper--w680">
+<div class="card card-4">
+<div class="card-body">
+<style>
+.title
+{
+    color : purple;
+
+}
+.title:hover
+{
+ color : #a18cd1;
+}
+
+</style>
+<h2  align="center" class="title">Credit Card Defaulter Prediction</h2>
+
+
+
+<form action="{{ url_for('predict')}}" method="post">
+
+    <div class="col-2">
+<div class="input-group">
+<label class="label">Gender</label>
+<div class="p-t-10">
+<label class="radio-container m-r-45">Male
+<input type="radio" checked="checked" value="1" name="gender">
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Female
+<input type="radio" value="2" name="gender">
+<span class="checkmark"></span>
+</label>
+</div>
+</div>
+</div>
+
+    <div class="col-6">
+<div class="input-group">
+<label class="label">Education</label>
+<div class="p-t-10">
+<label class="radio-container m-r-42">Graduate School<input type="radio" checked="checked" value="1" name="education">
+<span class="checkmark"></span>
+</label>
+    <br>
+<label class="radio-container">University
+<input type="radio" value="2" name="education">
+<span class="checkmark"></span>
+</label>
+    <br>
+    <label class="radio-container">High School
+<input type="radio" value="3" name="education">
+<span class="checkmark"></span>
+</label>
+    <br>
+    <label class="radio-container">Others
+<input type="radio" value="4" name="education">
+<span class="checkmark"></span>
+</label>
+      <br>
+    <label class="radio-container">Unknown
+<input type="radio" value="5" name="education">
+<span class="checkmark"></span>
+</label>
+</div>
+</div>
+</div>
+        <div class="col-6">
+<div class="input-group">
+<label class="label">Martial Status</label>
+<div class="p-t-10">
+<label class="radio-container m-r-40">Married<input type="radio" checked="checked" value="1" name="marriage">
+<span class="checkmark"></span>
+</label>
+<label class="radio-container">Single
+<input type="radio" value="2" name="marriage">
+<span class="checkmark"></span>
+</label>
+    <label class="radio-container">Other
+<input type="radio" value="3" name="marriage">
+<span class="checkmark"></span>
+</label>
+
+</div>
+</div>
+</div>
+<div class="row row-space">
+<div class="col-2">
+<div class="input-group">
+<label class="label">Age</label>
+<input class="input--style-4" type="number" placeholder="in years" name="age">
+</div>
+</div>
+<div class="col-2">
+<div class="input-group">
+<label class="label">Limit Balance:</label>
+<input class="input--style-4" type="text"  placeholder="Amount in Dollar" name="limit_bal">
+</div>
+</div>
+</div>
+    <br>
+    	<label class="label" >Repayment Status:</label>
+    <p>(-1=pay duly, 1=one month delay, 2=two months delay, … 9=delay for nine months and above)</p>
+<div class="row row-space">
+<div class="col-2">
+<div class="input-group">
+	<label class="label" >April</label><br>
+    <input class="input--style-4"  name="pay_6" id="pay_6" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">May</label><br>
+    <input class="input--style-4" name="pay_5" id="pay_5" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >June</label><br>
+    <input class="input--style-4"  name="pay_4" id="pay_4" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >July</label><br>
+    <input  class="input--style-4"  name="pay_3" id="pay_3" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">August</label><br>
+    <input class="input--style-4"  name="pay_2" id="pay_2" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">September</label><br>
+    <input class="input--style-4"  name="pay_0" id="pay_0" min="-2" max="9" type="number" value="0" required>
+</div>
+</div>
+</div>
+
+
+
+    	<label class="label" >Bill Amounts :</label>
+    <p> Amount of bill statements (in dollar)</p>
+<div class="row row-space">
+<div class="col-2">
+<div class="input-group">
+	<label class="label" >April</label><br>
+    <input class="input--style-4"  name="bill_amt6" id="bill_amt6" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">May</label><br>
+    <input class="input--style-4" name="bill_amt5" id="bill_amt5" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >June</label><br>
+    <input class="input--style-4"  name="bill_amt4" id="bill_amt4" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >July</label><br>
+    <input  class="input--style-4" name="bill_amt3" id="bill_amt3" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">August</label><br>
+    <input class="input--style-4"  name="bill_amt2" id="bill_amt2" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">September</label><br>
+    <input class="input--style-4" name="bill_amt1" id="bill_amt1" value="0" type="number" required>
+</div>
+</div>
+</div>
+	<label class="label" >Previous Payments :</label>
+    <p>  Amount of previous payments (in dollar)</p>
+<div class="row row-space">
+<div class="col-2">
+<div class="input-group">
+	<label class="label" >April</label><br>
+    <input class="input--style-4"  name="pay_amt6" id="pay_amt6" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">May</label><br>
+    <input class="input--style-4" name="pay_amt5" id="pay_amt5" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >June</label><br>
+    <input class="input--style-4"  name="pay_amt4" id="payl_amt4" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label" >July</label><br>
+    <input  class="input--style-4" name="pay_amt3" id="pay_amt3" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">August</label><br>
+    <input class="input--style-4"  name="pay_amt2" id="pay_amt2" value="0" type="number" required>
+</div>
+</div>
+    <div class="col-2">
+<div class="input-group">
+	<label class="label">September</label><br>
+    <input class="input--style-4" name="pay_amt1" id="payl_amt1" value="0" type="number" required>
+</div>
+</div>
+</div>
+
+<div class="p-t-15" align="center">
+<button class="btn btn--radius-2 btn--blue" type="submit">Predict</button>
+</div>
+</form>
+   <br>
+
+    	<div class="label" align="center">
+		{% if prediction_text %}
+			<p style="padding: 0.5%"><b>{{ prediction_text }}</b></p>
+		{% endif %}
+	</div>
+</div>
+</div>
+</div>
+</div>
+
+<script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+
+<script src="{{ url_for('static', filename='vendor/select2/select2.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/datepicker/moment.min.js') }}"></script>
+<script src="{{ url_for('static', filename='vendor/datepicker/daterangepicker.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/global.jsF') }}"></script>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-23581568-13');
+</script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6c35cc5c6c657397","token":"cd0b4b3a733644fc843ef0b185f98241","version":"2021.12.0","si":100}' crossorigin="anonymous"></script>
+</body>
+
+<!-- Mirrored from colorlib.com/etc/regform/colorlib-regform-4/ by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 25 Dec 2021 23:19:56 GMT -->
+</html>
