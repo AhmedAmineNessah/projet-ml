@@ -1,20 +1,11 @@
 # <font color = berry >Projet Machine Learning </font>
 
-## Objective
-1. La compréhension du problème métier
-2. La compréhension des données
-3. La Préparation des données
-4. La modélisation
-5. L’évaluation
-6. Le déploiement
 
 
 
-## Overview
-This is a classification model for a most common dataset, Credit Card defaulter prediction. Prediction of the next month credit card defaulter based on demographic and last six months behavioral data of customers.
 
-## Dataset Information
-This dataset contains information on default payments, demographic factors, credit data, history of payment, and bill statements of credit card clients in _Taiwan from April 2005 to September 2005_.
+
+
 
 
 ## Technologies Used
@@ -24,15 +15,12 @@ This dataset contains information on default payments, demographic factors, cred
 [<img target="_blank" src="https://flask.palletsprojects.com/en/1.1.x/_images/flask-logo.png" width=150>](https://flask.palletsprojects.com/en/1.1.x/) [<img target="_blank" src="https://number1.co.za/wp-content/uploads/2017/10/gunicorn_logo-300x85.png" width=200>](https://gunicorn.org) [<img target="_blank" src="https://matplotlib.org/_static/logo2_compressed.svg" width=170>](https://matplotlib.org)      [<img target="_blank" src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width=150>](https://seaborn.pydata.org)
 
 
-## Team
-Mohamed Amine Messaoudi
+## Equipe
 
-Ines Ben Amor 
-
-Mohamed Ilyes Nassraoui
-
-Sourour Cherif
-
-Eya BenMoulehom 
-
-Sonia Farhat
+Ahmed Amine Nessah 
+Ahmed Farjallah
+Mehdi Taieb Amri
+Aziz Maatouk
+Mouadh Belgaied
+Youssef Ben Amara
+Ahmed Shili
